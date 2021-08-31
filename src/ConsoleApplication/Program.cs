@@ -31,12 +31,12 @@ namespace ConsoleApplication
                 var train = new Train(nombre);               
             }
             Console.WriteLine(Train.Count); //IMPRIME 10000100 INSTANCIAS PORQUE LA VARIABLE COUNT TIENE VALOR 100 CUANDO INICIA ESTE FOR PORQUE NO SE REINICIA YA QUE 
-                                            //EL PROGRAMA NO HA TERMINADO
+//EL PROGRAMA NO HA TERMINADO
             var t1 = new Train("Last Train To London"); 
             var t2 = new Train("Last Train To London");
             var t3 = new Train("Runaway Train");
-            //t1==t2 POR MAS QUE LLEVEN EL MISMO IDENTIFICADOR SON INSTANCIAS DIFERENTES
-            //t2 == t3 TAMBIEN SON INSTANCIAS DIFERENTES
+            //t1==t2  ARROJA FALSO YA QUE POR MAS QUE LLEVEN EL MISMO IDENTIFICADOR SON INSTANCIAS DIFERENTES
+            //t2 == t3 TAMBIEN ARROJA FALSO SON INSTANCIAS DIFERENTES
         
             
            // train.StartEngines();
